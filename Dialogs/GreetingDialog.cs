@@ -46,7 +46,7 @@ namespace VirtualAssistant.Dialogs
                 return await stepContext.PromptAsync($"{nameof(GreetingDialog)}.name",
                 new PromptOptions
                 {
-                    Prompt = MessageFactory.Text("What is your name?")
+                    Prompt = MessageFactory.Text("Hi! What is your name?")
                 },
                 cancellationToken);
             }
@@ -67,7 +67,7 @@ namespace VirtualAssistant.Dialogs
                 // Save any state that might have occured during the turn.
                 await botStateService.UserProfileAccessor.SetAsync(stepContext.Context, userProfile);
             }
-            await stepContext.Context.SendActivityAsync(MessageFactory.Text($"Hi, {userProfile.Name}. How can I help you?"), cancellationToken);
+            await stepContext.Context.SendActivityAsync(MessageFactory.Text($"Nice to meet you, {userProfile.Name}. I can give you a survey in order to help you to choose a laptop. Would like to take a survey?"), cancellationToken);
             return await stepContext.EndDialogAsync(null, cancellationToken);
         }
 
