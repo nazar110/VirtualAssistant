@@ -37,3 +37,13 @@ D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssis
 D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.DateTime.dll
 D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.Number.dll
 D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\Microsoft.Recognizers.Text.NumberWithUnit.dll
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\VirtualAssistant.deps.json
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\VirtualAssistant.runtimeconfig.json
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\VirtualAssistant.runtimeconfig.dev.json
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\VirtualAssistant.dll
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\bin\Debug\netcoreapp3.1\VirtualAssistant.pdb
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\obj\Debug\netcoreapp3.1\VirtualAssistant.MvcApplicationPartsAssemblyInfo.cs
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\obj\Debug\netcoreapp3.1\VirtualAssistant.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\obj\Debug\netcoreapp3.1\VirtualAssistant.dll
+D:\Documents\Nazar\University\2020\Course project\Course repository\VirtualAssistant\obj\Debug\netcoreapp3.1\VirtualAssistant.pdb

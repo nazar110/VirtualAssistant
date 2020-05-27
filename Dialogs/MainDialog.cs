@@ -36,7 +36,7 @@ namespace VirtualAssistant.Dialogs
 
             // Add Named Dialogs. Our Component dialogs
             AddDialog(new GreetingDialog($"{nameof(MainDialog)}.greeting", botStateService));
-            AddDialog(new BugReportDialog($"{nameof(MainDialog)}.bugReport", botStateService));
+            AddDialog(new SurveyDialog($"{nameof(MainDialog)}.survey", botStateService));
 
             AddDialog(new WaterfallDialog($"{nameof(GreetingDialog)}.mainFlow", waterfallSteps));
 
@@ -52,7 +52,7 @@ namespace VirtualAssistant.Dialogs
             }
             else
             {
-                return await stepContext.BeginDialogAsync($"{nameof(MainDialog)}.bugReport", null, cancellationToken);
+                return await stepContext.BeginDialogAsync($"{nameof(MainDialog)}.survey", null, cancellationToken);
             }
         }
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
